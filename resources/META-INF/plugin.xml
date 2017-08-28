@@ -30,6 +30,11 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="SingletonCreator.ID" class="com.sfkiller.plugin.singletoncreator.SingletonCreatorAction"
+            text="SingletonCreator" description="provided different implements of singleton">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt K"/>
+    </action>
   </actions>
 
 </idea-plugin>
